@@ -1,0 +1,12 @@
+{
+  "name": "zoodio-code-studio",
+  "private": true,
+  "scripts": {
+    "dev": "cd ZoodioCode && npm run dev",
+    "build": "cd ZoodioCode && npm run build",
+    "preview": "cd ZoodioCode && npm run preview"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0"
+  }
+}
