@@ -72,7 +72,7 @@ function App() {
     setOutput(`> Running ${activeEditor.file}...`);
 
     try {
-      const response = await fetch("https://zoodio-code-studio-u5eo.vercel.app/api/run", {
+      const response = await fetch("https://zoodiocodestudio.onrender.com/api/run", {
         method: "POST",
 
         headers: {
