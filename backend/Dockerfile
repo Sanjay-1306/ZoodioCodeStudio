@@ -3,7 +3,7 @@ FROM node:22-bookworm
 WORKDIR /app
 
 RUN apt-get update && \
-    apt-get install -y python3 default-jdk && \
+    apt-get install -y python3 python-is-python3 default-jdk && \
     rm -rf /var/lib/apt/lists/*
 
 COPY package*.json ./
